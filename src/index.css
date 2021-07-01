@@ -5,6 +5,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* 
+  - only this is added by us, other code was added by default
+  - it was added because Create React App wants the exact same base styling across
+  all browsers; where different browsers may run different things like different font
+  or padding or margin
+  */
+  background: linear-gradient(
+    to left,
+    rgba(7, 27, 82, 1) 0%,
+    rgba(0, 128, 128, 1) 100%
+  );
 }
 
 code {

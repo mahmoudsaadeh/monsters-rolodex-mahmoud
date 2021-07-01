@@ -1,0 +1,9 @@
+.card-list {
+    width: 85vw;
+    margin: 0 auto;
+    display: grid;
+    /* 4 columns each with a size of 1 fraction */
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* fr: fraction */
+    grid-gap: 20px;
+  }
+  

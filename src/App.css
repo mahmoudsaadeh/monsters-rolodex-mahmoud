@@ -1,7 +1,8 @@
 .App {
   text-align: center;
+  /*padding-bottom: 2pc; */
 }
-
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -23,7 +24,8 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+*/
+/*
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +37,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+*/
+/*
+#searchInput {
+  margin-bottom: 2pc;
+  margin-top: 2pc;
+}*/
+
+h1 {
+  font-family: 'Bigelow Rules';
+  font-size: 72px;
+  color: #0ccac4;
+}
+
+body {
+  padding: 30px 0;
 }
