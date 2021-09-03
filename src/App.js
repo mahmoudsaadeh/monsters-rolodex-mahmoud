@@ -117,7 +117,7 @@ class App extends Component {
   // if you type 'a', the search field shows empty string (searchField not updated), 
   // if we type another 'a' it shows only 1 'a'
   // this is because setState is an asynchronous function call
-  // synchronous: is an action that we expect that will happen almost immediatly
+  // synchronous: is an action that we expect that will happen almost immediately
   // and js knows the amount of time this action or function will take,
   // so js will wait for that thing to finish before it continues running the rest of the code
   // asynchronous: is an action or event is something that take an indefinite amount of time
@@ -153,7 +153,7 @@ class App extends Component {
     handleChange = e => {
       this.setState({searchField: e.target.value});
     };
- // onChange event here is JSX (synthetic event) != onchange in a regular hmtl element
+ // onChange event here is JSX (synthetic event) != onchange in a regular html element
  // the 1st updates the state, updates the virtual DOM, then the main DOM is updated
  // accordingly, the 2nd updates the main DOM directly!
  // Synthetic event: a fake event that we pretend that it's a DOM event, but it's
@@ -166,7 +166,7 @@ class App extends Component {
     // const searchField = this.state.searchField;
 
     // we defined 2 new arrays to avoid overwriting on the main one
-    // React rerenders the component everytime a change happens in the searchField
+    // React re-renders the component everytime a change happens in the searchField
     // In react, no need to hide or show cards explicitly (as we were used to do traditionally)
     const { monsters, searchField } = this.state;
     const filteredMonsters = monsters.filter(aMonster =>

@@ -11,7 +11,7 @@ they also don't have access to lifecycle methods because we don't always need to
 A functional component is a one that takes some props and returns some HTML
 
 So if you don't need access to state or lifecycle methods 
-, just use functional components [becasue it's easier to test and read],
+, just use functional components [because it's easier to test and read],
 otherwise, use class components
 */
 
